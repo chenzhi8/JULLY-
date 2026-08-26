@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /research.html
-
-Sitemap: https://jully.pw/sitemap.xml
