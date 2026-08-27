@@ -66,3 +66,8 @@ body[data-page=research] .resource img{background:transparent!important;border-c
   .actions{justify-content:center;margin-top:16px}
   body[data-page=service] .contact-card p{max-width:78%}
 }
+
+@media(max-width:620px){
+  body[data-page=index] .hero{place-items:center}
+  body[data-page=index] .hero-content{align-self:center;padding-top:0}
+}
