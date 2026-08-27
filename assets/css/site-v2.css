@@ -37,3 +37,23 @@ body[data-page=research] .research-content{padding-top:38px}body[data-page=resea
 @media(max-width:920px){body[data-page=research] .research-board{grid-template-columns:1fr 1fr}body[data-page=research] .board-col:last-child{grid-column:1/-1;display:grid!important;grid-template-columns:1fr 1fr;gap:10px}body[data-page=research] .board-col:last-child .board-title,body[data-page=research] .board-col:last-child .notice{grid-column:1/-1}}
 @media(max-width:620px){body[data-page=research] .research-board{grid-template-columns:1fr;padding:10px}body[data-page=research] .board-col:last-child{grid-column:auto;grid-template-columns:1fr}body[data-page=research] .resource{grid-template-columns:48px 1fr auto;min-height:68px}body[data-page=research] .resource img{width:48px;height:48px}body[data-page=research] .resource .btn{min-width:48px;font-size:11px}}
 body[data-page=research] .board-col:last-child .gold-card .btn{color:#fff0c7}
+
+body[data-page="service"] .contact-card:nth-child(1) {
+  background-image: url("../images/contact/contact-telegram.webp");
+  background-position: center;
+}
+
+body[data-page="service"] .contact-card:nth-child(2) {
+  background-image: url("../images/contact/contact-qq.webp");
+  background-position: center;
+}
+
+body[data-page="service"] .contact-card:nth-child(3) {
+  background-image: url("../images/contact/contact-safex.webp");
+  background-position: center;
+}
+
+body[data-page="service"] .contact-card:nth-child(4) {
+  background-image: url("../images/contact/contact-email.webp");
+  background-position: center;
+}
